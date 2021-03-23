@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:th="http://www.thymeleft.org"
+      xsi:schemaLocation="http://www.thymeleft.org ">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Accountant</title>
+</head>
+<body>
+<div align="center">
+  <h1>Second best sell</h1>
+  <br/><br/>
+  <table border="1" , cellpadding="10">
+    <thead>
+    <tr>
+      <th> Dish name</th>
+      <th> Price</th>
+      <th> Quantity </th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <td><span th:text="${secondBest.dishesName}"> Dish </span></td>
+    <td><span th:text="${secondBest.price}"> Price </span></td>
+    <td><span th:text="${secondBest.quantity}"> Quantity </span></td>
+
+    </tr>
+    </tbody>
+  </table>
+</div>
+<div align="center">
+  <button onclick="goBack()">Go Back</button>
+  <script>
+      function goBack() {
+          window.history.back();
+      }
+  </script>
+</div>
+</body>
+</html>

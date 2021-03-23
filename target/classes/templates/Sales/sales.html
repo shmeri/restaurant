@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:th="http://www.thymeleft.org"
+      xsi:schemaLocation="http://www.thymeleft.org ">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant</title>
+</head>
+<body>
+<div align="center">
+  <h1>Sales Records</h1>
+  <table border="1" cellpadding="10">
+    <thead>
+    <tr>
+      <th> Id</th>
+      <th> Client name</th>
+      <th> Waiters name</th>
+      <th> Dishes</th>
+      <th> Price</th>
+      <th> Quantity </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="sale : ${saleList}">
+      <td><span th:text="${sale.id}"> Id </span></td>
+      <td><span th:text="${sale.clientName}"> Client name </span></td>
+      <td><span th:text="${sale.waitersName}"> Waiters name </span></td>
+      <td><span th:text="${sale.dishes}"> Dishes name </span></td>
+      <td><span th:text="${sale.price}"> Price </span></td>
+      <td><span th:text="${sale.quantity}"> Quantity </span></td>
+    </tr>
+    </tbody>
+  </table>
+
+</div>
+<div align="center">
+  <button onclick="goBack()">Go Back</button>
+  <script>
+      function goBack() {
+          window.history.back();
+      }
+  </script>
+</div>
+</body>
+</html>

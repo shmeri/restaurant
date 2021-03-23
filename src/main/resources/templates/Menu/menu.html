@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:th="http://www.thymeleft.org"
+      xsi:schemaLocation="http://www.thymeleft.org ">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Menu</title>
+</head>
+<body>
+<div align="center">
+  <h1>Menu</h1>
+  <a href="/addNewDishes">Add new dishes</a>
+  <table border="1" cellpadding="10">
+    <thead>
+    <tr>
+      <th> Id</th>
+      <th> Dishes name</th>
+      <th> Price</th>
+      <th> Weight</th>
+      <th> Quantity</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="menu : ${menuList}">
+      <td><span th:text="${menu.id}"> Id </span></td>
+      <td><span th:text="${menu.dishesName}"> Dishes name </span></td>
+      <td><span th:text="${menu.price}"> Price </span></td>
+      <td><span th:text="${menu.weight}"> Weight </span></td>
+      <td><span th:text="${menu.quantity}"> Quantity </span></td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<div align="center">
+  <button onclick="goBack()">Go Back</button>
+  <script>
+      function goBack() {
+          window.history.back();
+      }
+  </script>
+</div>
+</body>
+</html>

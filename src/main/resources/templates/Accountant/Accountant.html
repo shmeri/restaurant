@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:th="http://www.thymeleft.org"
+      xsi:schemaLocation="http://www.thymeleft.org ">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant</title>
+</head>
+<body>
+<div align="center">
+  <h1>Accountant! </h1>
+  <button onclick="viewSecondLowerWaiter()">View second lower waiter.</button>
+  <script>
+      function viewSecondLowerWaiter() {
+          window.location.href = "http://localhost:8080/accountant/secondLower";
+      }
+  </script>
+  <button onclick="viewClientsAveSpend()">View client group average spend.</button>
+  <script>
+      function viewClientsAveSpend() {
+          window.location.href = "http://localhost:8080/accountant/clientAveSpend";
+      }
+  </script>
+  <button onclick="viewSecondBest()">View second best dishes sale</button>
+  <script>
+      function viewSecondBest() {
+          window.location.href = "http://localhost:8080/accountant/secondBest";
+      }
+  </script>
+<!--  <button onclick="viewClients()">View clients</button>-->
+<!--  <script>-->
+<!--      function viewClients() {-->
+<!--          window.location.href = "http://localhost:8080/clients";-->
+<!--      }-->
+<!--  </script>-->
+<!--  <button onclick="viewMenu()">MENU</button>-->
+<!--  <script>-->
+<!--      function viewMenu() {-->
+<!--          window.location.href = "http://localhost:8080/menu";-->
+<!--      }-->
+<!--  </script>-->
+  <div align="center">
+  <button onclick="goBack()">Go Back</button>
+  <script>
+      function goBack() {
+          window.history.back();
+      }
+  </script>
+  </div>
+</div>
+</body>
+</html>

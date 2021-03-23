@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b2e55874-34cd-4c49-a9e5-950635fb6ab3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Waiters/waiters.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Waiters/waiters.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Waiters/waitersOrderByName.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Waiters/waitersOrderByName.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Waiters/waitersOrderByTip.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Waiters/waitersOrderByTip.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Shmeri" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eztMjpjlacTv3JKlr0HiFyHcNZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/DigLibrary/GGS-Brain-Storm" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Shmeri\georgi-pehlivanov\restaurant\src\main\resources\templates\Waiters" />
+      <recent name="C:\Users\Shmeri\georgi-pehlivanov\restaurant\src\main\resources\templates\Sales" />
+      <recent name="C:\Users\Shmeri\georgi-pehlivanov\restaurant\src\main\resources\templates\Menu" />
+      <recent name="C:\Users\Shmeri\georgi-pehlivanov\restaurant\src\main\resources\templates\Clients" />
+      <recent name="C:\Users\Shmeri\georgi-pehlivanov\restaurant\src\main\resources\templates\Accountant" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.project.restaurant" />
+      <recent name="com.project.restaurant.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Shmeri\georgi-pehlivanov\restaurant\src\main\resources\templates\Waiters" />
+      <recent name="C:\Users\Shmeri\georgi-pehlivanov\restaurant\src\main\resources\templates\Accountant" />
+      <recent name="C:\Users\Shmeri\georgi-pehlivanov\restaurant\src\main\resources\templates" />
+      <recent name="C:\Users\Shmeri\georgi-pehlivanov\restaurant\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RestaurantApplication">
+    <configuration name="ClientServiceDAOImplTest.testGetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restaurant" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.restaurant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.restaurant" />
+      <option name="MAIN_CLASS_NAME" value="com.project.restaurant.ClientServiceDAOImplTest" />
+      <option name="METHOD_NAME" value="testGetById(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientServiceDAOImplTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restaurant" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.restaurant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.restaurant" />
+      <option name="MAIN_CLASS_NAME" value="com.project.restaurant.ClientServiceDAOImplTest" />
+      <option name="METHOD_NAME" value="testSave" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuDAOImplTest.testList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restaurant" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.restaurant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.restaurant" />
+      <option name="MAIN_CLASS_NAME" value="com.project.restaurant.MenuDAOImplTest" />
+      <option name="METHOD_NAME" value="testList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalesDAOImplTest.testList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restaurant" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.restaurant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.restaurant" />
+      <option name="MAIN_CLASS_NAME" value="com.project.restaurant.SalesDAOImplTest" />
+      <option name="METHOD_NAME" value="testList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaiterDAOImplTest.testList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restaurant" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.restaurant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.restaurant" />
+      <option name="MAIN_CLASS_NAME" value="com.project.restaurant.WaiterDAOImplTest" />
+      <option name="METHOD_NAME" value="testList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestaurantApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="restaurant" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.restaurant.RestaurantApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MenuDAOImplTest.testList" />
+        <item itemvalue="JUnit.ClientServiceDAOImplTest.testGetById" />
+        <item itemvalue="JUnit.ClientServiceDAOImplTest.testSave" />
+        <item itemvalue="JUnit.SalesDAOImplTest.testList" />
+        <item itemvalue="JUnit.WaiterDAOImplTest.testList" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Shmeri: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Shmeri: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@a346880" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2e55874-34cd-4c49-a9e5-950635fb6ab3" name="Default Changelist" comment="" />
+      <created>1595336203558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595336203558</updated>
+      <workItem from="1595336208793" duration="779000" />
+      <workItem from="1595342638124" duration="9139000" />
+      <workItem from="1595508039886" duration="24100000" />
+      <workItem from="1595672710469" duration="9114000" />
+      <workItem from="1595788859951" duration="10194000" />
+      <workItem from="1595830798208" duration="30877000" />
+      <workItem from="1595920077020" duration="24731000" />
+      <workItem from="1596000092285" duration="27322000" />
+      <workItem from="1596117724670" duration="1695000" />
+      <workItem from="1596120358265" duration="3931000" />
+      <workItem from="1596197706767" duration="13329000" />
+      <workItem from="1596545921627" duration="673000" />
+      <workItem from="1601464762330" duration="18000" />
+      <workItem from="1604691383975" duration="48000" />
+      <workItem from="1606822686537" duration="1031000" />
+      <workItem from="1607601528554" duration="6000" />
+      <workItem from="1611603983250" duration="136000" />
+      <workItem from="1616416834542" duration="2177000" />
+      <workItem from="1616434016945" duration="490000" />
+      <workItem from="1616503817715" duration="807000" />
+    </task>
+    <task id="LOCAL-00001" summary="Inital import">
+      <created>1595336379402</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595336379402</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1. Added oracle dependency.&#10;2. Added application properties.">
+      <created>1595343247440</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595343247440</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1. Added models.">
+      <created>1595360901209</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595360901209</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1. Added some DAO.&#10;2. Added test for list().&#10;3. Added new model.&#10;4. Added html.&#10;5. Added &quot;security&quot;. &#10;6. Added application controller.">
+      <created>1595553158947</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595553158947</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1. Added some DAO.&#10;2. Added test for list().&#10;3. Added html.">
+      <created>1595831193236</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595831193236</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1.Added services.&#10;2.Changed DAO. &#10;3. Added new controllers.">
+      <created>1595878012641</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595878012641</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1.Added restaurant controller.">
+      <created>1595889748370</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595889748370</updated>
+    </task>
+    <task id="LOCAL-00008" summary="1.Added restaurant RowMapper.">
+      <created>1595922562058</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1595922562058</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1.Final pushes">
+      <created>1596033558830</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596033558831</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1.Added accountant page.&#10;2. Fixed add bugs in waiters and clients page.">
+      <created>1596199559477</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1596199559477</updated>
+    </task>
+    <task id="LOCAL-00011" summary="1. Fixed waiter add.">
+      <created>1596200609969</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1596200609969</updated>
+    </task>
+    <task id="LOCAL-00012" summary="1.Add waiters orders.">
+      <created>1596210503038</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1596210503038</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Inital import" />
+    <MESSAGE value="1. Added oracle dependency.&#10;2. Added application properties." />
+    <MESSAGE value="1. Added models." />
+    <MESSAGE value="1. Added some DAO.&#10;2. Added test for list().&#10;3. Added new model.&#10;4. Added html.&#10;5. Added &quot;security&quot;. &#10;6. Added application controller." />
+    <MESSAGE value="1. Added some DAO.&#10;2. Added test for list().&#10;3. Added html." />
+    <MESSAGE value="1.Added services.&#10;2.Changed DAO. &#10;3. Added new controllers." />
+    <MESSAGE value="1.Added restaurant controller." />
+    <MESSAGE value="1.Added restaurant RowMapper." />
+    <MESSAGE value="1.Final pushes" />
+    <MESSAGE value="1.Added accountant page.&#10;2. Fixed add bugs in waiters and clients page." />
+    <MESSAGE value="1. Fixed waiter add." />
+    <MESSAGE value="1.Add waiters orders." />
+    <option name="LAST_COMMIT_MESSAGE" value="1.Add waiters orders." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1616503870546">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1616503870546" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1616417262898">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616417262898" />
+  </component>
+  <component name="hg4idea.settings">
+    <option name="CHECK_INCOMING_OUTGOING" value="true" />
+    <option name="RECENT_HG_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+</project>

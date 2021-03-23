@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:th="http://www.thymeleft.org"
+      xsi:schemaLocation="http://www.thymeleft.org ">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant</title>
+</head>
+<body>
+<div align="center">
+  <h1>Waiters Records</h1>
+  <a href="/addNewWaiters">Enter new waiter</a>
+  <div align="center">
+    <button onclick="viewWaiterOrderByTip()">Order by tip</button>
+    <script>
+        function viewWaiterOrderByTip() {
+            window.location.href = "http://localhost:8080/waitersOrderByTip";
+        }
+    </script>
+    <button onclick="viewWaiterOrderByName()">Order by name</button>
+    <script>
+        function viewWaiterOrderByName() {
+            window.location.href = "http://localhost:8080/waitersOrderByName";
+        }
+    </script>
+  </div>
+  <table border="1" cellpadding="10">
+    <thead>
+    <tr>
+      <th> Id</th>
+      <th> Waiter name</th>
+      <th> Tips</th>
+      <th> Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="waiter : ${waitersList}">
+      <td><span th:text="${waiter.id}"> Id </span></td>
+      <td><span th:text="${waiter.name}"> Waitress name </span></td>
+      <td><span th:text="${waiter.tip}"> Tips </span></td>
+      <td>
+        <a th:href="@{'/delete/' + ${waiter.id}}">Fire</a>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+  <div align="center">
+    <button onclick="goBack()">Go Back</button>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+  </div>
+</div>
+</body>
+</html>

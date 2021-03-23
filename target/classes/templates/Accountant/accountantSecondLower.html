@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:th="http://www.thymeleft.org"
+      xsi:schemaLocation="http://www.thymeleft.org ">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Accountant</title>
+</head>
+<body>
+<div align="center">
+  <h1>Second lower waiter</h1>
+  <br/><br/>
+  <table border="1" , cellpadding="10">
+    <thead>
+    <tr>
+      <th> Client name</th>
+      <th> Tip</th>
+    </tr>
+    </thead>
+    <tbody>
+    <td><span th:text="${secondLower.name}"> Name </span></td>
+    <td><span th:text="${secondLower.tip}"> Tip </span></td>
+
+    </tr>
+    </tbody>
+  </table>
+</div>
+<div align="center">
+  <button onclick="goBack()">Go Back</button>
+  <script>
+      function goBack() {
+          window.history.back();
+      }
+  </script>
+</div>
+</body>
+</html>

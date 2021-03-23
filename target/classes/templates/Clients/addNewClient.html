@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:th="http://www.thymeleft.org"
+      xsi:schemaLocation="http://www.thymeleft.org ">
+
+<head>
+  <meta charset="UTF-8">
+  <title>New Client</title>
+</head>
+<body>
+<div align="center">
+  <h1>Enter new client</h1>
+  <table border="1" cellpadding="10">
+    <br/>
+    <form action="#" th:action="@{/saveClient}" th:object="${client}" method="post">
+      <table border="1" cellpadding="10">
+        <tr>
+          <td>Id</td>
+          <td><input type="text" th:field="*{id}"></td>
+        </tr>
+        <tr>
+          <td>Name</td>
+          <td><input type="text" th:field="*{name}"></td>
+        </tr>
+        <tr>
+          <td>Type</td>
+          <td><input type="text" th:field="*{type}"></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <button type="submit">Save</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </table>
+</div>
+<div align="center">
+  <button onclick="goBack()">Go Back</button>
+  <script>
+      function goBack() {
+          window.history.back();
+      }
+  </script>
+</div>
+</body>
+</html>

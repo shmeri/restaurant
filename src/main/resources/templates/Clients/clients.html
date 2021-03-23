@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:th="http://www.thymeleft.org"
+      xsi:schemaLocation="http://www.thymeleft.org ">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant</title>
+</head>
+<body>
+<div align="center">
+  <h1>Clients records</h1>
+  <a href="/addNewClient">Enter new client</a>
+  <br/><br/>
+  <table border="1" , cellpadding="10">
+    <thead>
+    <tr>
+      <th> Client name</th>
+      <th> Type</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="client : ${clientList}">
+      <td><span th:text="${client.name}"> Client name </span></td>
+      <td><span th:text="${client.type}"> Type </span></td>
+      <td>
+        <a th:href="@{'/edit/' + ${client.id}}">Edit</a>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<div align="center">
+  <button onclick="goBack()">Go Back</button>
+  <script>
+      function goBack() {
+          window.history.back();
+      }
+  </script>
+</div>
+</body>
+</html>
